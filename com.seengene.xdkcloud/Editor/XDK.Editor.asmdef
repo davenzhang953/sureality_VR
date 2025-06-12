@@ -1,0 +1,21 @@
+{
+    "name": "XDKCloudEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:06f31f6e4eabd4eca956db5cc14b189d",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:3e79538d51b66454e811b040eaaa3023",
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

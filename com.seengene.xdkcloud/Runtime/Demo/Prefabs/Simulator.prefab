@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3266475787271177515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3266475787271177685}
+  - component: {fileID: 3266475787271177514}
+  - component: {fileID: 3266475787271177684}
+  m_Layer: 0
+  m_Name: Simulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3266475787271177685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266475787271177515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.2648044, y: 1.1031345, z: -1.0163307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3266475787271177514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266475787271177515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689660cd8b4034828a69f49917158538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Session: {fileID: 0}
+  _camera: {fileID: 0}
+  everyFrame: 1
+--- !u!114 &3266475787271177684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266475787271177515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d294251c0b764678b7064ea758f8c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapAndSessions:
+  - mapID: 57088600544736
+    sessionID: 7570053781755540
+  - mapID: 85505295866336
+    sessionID: 4700260884661119
+  - mapID: 81664020700640
+    sessionID: 3056147410820619
+  - mapID: 76093130942944
+    sessionID: 4001388073855803
+  - mapID: 76093130942944
+    sessionID: 5762195425557460
+  - mapID: 89797119235552
+    sessionID: 6978057431777389
+  - mapID: 76093130942944
+    sessionID: 7157830097661562
+  DataResourceFolder: /Users/cuilichen/Documents/work_unity/XDK-Cloud-Package2/Simulator_test_data/
+  dataIndex: 5

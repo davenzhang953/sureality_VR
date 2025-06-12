@@ -1,0 +1,52 @@
+{
+  "name": "com.seengene.xdkcloud",
+  "displayName": "AR Seengene",
+  "version": "0.9.0",
+  "unity": "6000.0",
+  "description": "Cloud spatial mapping, provide by seengene.",
+  "keywords": [
+    "xr",
+    "ar",
+    "augmented",
+    "reality",
+    "utility",
+    "utilities",
+    "foundation",
+    "core"
+  ],
+  "dependencies": {
+    "com.unity.xr.arfoundation": "6.0.4",
+    "com.unity.xr.arcore": "6.0.4",
+    "com.unity.xr.arkit": "6.0.4",
+    "com.unity.xr.management": "4.5.0",
+    "com.unity.render-pipelines.universal": "17.0.3",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.inputsystem": "1.11.2",
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+  "upmCi": {
+    "footprint": "b91dc9d5ededd912e8fdaeecb175b0c003caf12e"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.arfoundation.git",
+    "type": "git",
+    "revision": "669c4911d29bcbb3764f239a3ef7b33e6289bb62"
+  },
+  "samples": [
+    {
+      "displayName": "Demo Universal RP",
+      "description": "Contains sample shaders for the Universal render pipeline",
+      "path": "Samples~/Demo Universal RP"
+    },
+    {
+      "displayName": "Demo BuildIn RP",
+      "description": "Contains sample shaders for the Standard render pipeline",
+      "path": "Samples~/Demo BuildIn RP"
+    },
+    {
+      "displayName": "Pico 4 Enterprise URP",
+      "description": "Sample for Pico 4 Enterprise Device, using Universal render pipeline",
+      "path": "Samples~/Pico 4 Enterprise URP"
+    }
+  ]
+}

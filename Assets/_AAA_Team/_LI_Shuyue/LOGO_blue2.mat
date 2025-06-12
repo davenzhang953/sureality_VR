@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LOGO_blue2
+  m_Shader: {fileID: 4800000, guid: 4ae935bab0143fe4ab16d7e7f9a13579, type: 3}
+  m_Parent: {fileID: 2100000, guid: 45e586ab52ec2df40bb226f18445bbdc, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  - _FRESNELONOFF_ON
+  - _METALLICGLOSSMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5ef0cd1bc024ef2489a4271ddcabacc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 5ef0cd1bc024ef2489a4271ddcabacc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambientlight: 8
+    - _AoIntensity: 0.06
+    - _BlurReflection: 2.98
+    - _Brightness: 3.29
+    - _BumpScale: 7.65
+    - _BumpScaleDecal: 1
+    - _BumpScaleDecal1: 0.35
+    - _ChromaticAberration: 0
+    - _EmissionIntensity: 1.08
+    - _EmissiveIntensity: 1.38
+    - _Fade: 0.09
+    - _FalloffOpacity: 0
+    - _FalloffOpacityIntensity: 1
+    - _FresnelStrength: 1.7
+    - _Glossiness: 0.566
+    - _GlossinessDecal: 0.642
+    - _Gradient1: 0
+    - _GradientFade: 1
+    - _IndexofRefraction: 1
+    - _Intensity: 1.21
+    - _Metallic: 0.96
+    - _MetallicDecal: 0
+    - _Opacity: 0
+    - _Power1: 2.43
+    - _PowerFalloffOpacity: 0.84
+    - _PowerFresnel: 0.71
+    - _ReflectionDecal: 0.07
+    - _ReflectionIntensity: 0.73
+    - _Refraction: 1.16
+    - _UseCubemap: 1
+    - _Weight: 24.37
+    m_Colors:
+    - _Color: {r: 0.7216981, g: 0.92578614, b: 1, a: 1}
+    - _ColorCubemap: {r: 0.2, g: 0.3372549, b: 0.9411765, a: 1}
+    - _ColorDecal: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorFresnel: {r: 0.6917801, g: 0, b: 0.8537736, a: 0}
+    - _ColorFresnel1: {r: 0.1764706, g: 0.8509804, b: 0.79607844, a: 0}
+    - _EmissionColor: {r: 12.588401, g: 11.890773, b: 1.4844811, a: 0}
+    - _SecondaryColor: {r: 0.13866144, g: 0.7169812, b: 0.19316281, a: 0}
+  m_BuildTextureStacks: []
