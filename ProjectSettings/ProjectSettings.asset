@@ -851,22 +851,25 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: UNITY_PIPELINE_URP;AR_GLASSES
-    EmbeddedLinux: AR_GLASSES
-    GameCoreXboxOne: AR_GLASSES
+    Android: UNITY_PIPELINE_URP;AR_GLASSES;DOTWEEN
+    EmbeddedLinux: AR_GLASSES;DOTWEEN
+    GameCoreScarlett: DOTWEEN
+    GameCoreXboxOne: AR_GLASSES;DOTWEEN
+    LinuxHeadlessSimulation: DOTWEEN
     Lumin: AR_GLASSES
-    Nintendo Switch: AR_GLASSES
-    PS4: AR_GLASSES
-    PS5: AR_GLASSES
-    QNX: AR_GLASSES
-    ReservedCFE: AR_GLASSES
+    Nintendo Switch: AR_GLASSES;DOTWEEN
+    PS4: AR_GLASSES;DOTWEEN
+    PS5: AR_GLASSES;DOTWEEN
+    QNX: AR_GLASSES;DOTWEEN
+    ReservedCFE: AR_GLASSES;DOTWEEN
     Stadia: AR_GLASSES
-    Standalone: AR_GLASSES;UNITY_PIPELINE_URP
-    VisionOS: AR_GLASSES
-    WebGL: AR_GLASSES
-    Windows Store Apps: AR_GLASSES
-    XboxOne: AR_GLASSES
-    tvOS: AR_GLASSES
+    Standalone: AR_GLASSES;UNITY_PIPELINE_URP;DOTWEEN
+    VisionOS: AR_GLASSES;DOTWEEN
+    WebGL: AR_GLASSES;DOTWEEN
+    Windows Store Apps: AR_GLASSES;DOTWEEN
+    XboxOne: AR_GLASSES;DOTWEEN
+    iPhone: DOTWEEN
+    tvOS: AR_GLASSES;DOTWEEN
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
